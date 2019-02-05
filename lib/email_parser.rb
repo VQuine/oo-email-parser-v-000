@@ -10,7 +10,7 @@ class EmailParser
     @@all
   end
 
-  def initialize
+  def initialize(emails)
     self
     @@all << self
   end
